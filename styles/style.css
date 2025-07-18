@@ -162,6 +162,33 @@ ul li a{
 }
 
 
+/* products */
+.products{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.products-title{
+    font-size: 2.375rem;
+}
+
+.products-description{
+    max-width: 501px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+
+.btn{
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 30px;
+}
+
+
 /* responsive part for small screen*/
 @media screen and (max-width:576px) {
     .nav-items, ul {
@@ -182,6 +209,12 @@ ul li a{
 
 .see{
     text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
 }
     
 }
