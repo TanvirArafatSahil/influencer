@@ -110,6 +110,10 @@ ul li a{
     margin: 0 auto;
 }
 
+.collection-img{
+    width: 100%;
+}
+
 .collection-title{
     text-align: center;
     margin-bottom: 30px;
@@ -170,6 +174,14 @@ ul li a{
 .icons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.see{
+    text-align: center;
 }
     
 }
