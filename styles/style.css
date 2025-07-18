@@ -98,8 +98,19 @@ ul li a{
     gap: 6px;
     max-width: 1110px;
     margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.icon-container{
+    border-top: 1px solid rgba(0, 0, 0, 0.068);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+    margin: 0 auto;
     margin-top: 69px;
     margin-bottom: 100px;
+    max-width: 1110px;
+    
 }
 
 /* collection card */
