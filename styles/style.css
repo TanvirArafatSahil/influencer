@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+
+.hover:hover{
+    background-color: bisque;
+}
+
 /* header section */
 header{
     max-width: 1240px;
@@ -155,11 +160,18 @@ ul li a{
     color: #787885;
 }
 
+.see a{
+    text-decoration: none;
+    color:  rgba(224, 44, 109, 0.87);
+    
+}
+
 .see{
     text-align: end;
-    color: rgba(224, 44, 109, 0.87);
     font-weight: bold;
 }
+
+
 
 
 /* products */
