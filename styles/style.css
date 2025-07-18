@@ -53,6 +53,7 @@ ul li a{
 
 .banner-img{
     max-width: 440px;
+    width: 100%;
 }
 
 .banner-title{
@@ -74,8 +75,41 @@ ul li a{
 }
 
 #image-cam{
-    position: relative;
-    bottom: 450px;
-    left: 800px;
+    position: absolute;
+    top: 10px;
+    
 }
 
+.banner-img{
+    position: relative;
+}
+
+
+/* icon */
+.icons{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    gap: 6px;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 69px;
+    margin-bottom: 100px;
+}
+
+
+/* responsive part for small screen*/
+@media screen and (max-width:576px) {
+    .nav-items, ul {
+        flex-direction: column;
+    }
+.banner{
+    flex-direction: column-reverse;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+    
+}
