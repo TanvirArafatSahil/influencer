@@ -189,6 +189,31 @@ ul li a{
 }
 
 
+footer{
+    background-color: #0B0B45;  
+    margin-top: 100px;
+}
+
+.footer-container{
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-title{
+    font-size: 1.50rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.copy{
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #D9DBE1;
+}
+
+
+
 /* responsive part for small screen*/
 @media screen and (max-width:576px) {
     .nav-items, ul {
